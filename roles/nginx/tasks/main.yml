@@ -1,6 +1,6 @@
 ---
 - name: Install nginx
-  package:
+  openbsd_pkg:
     name: nginx
     state: installed
 
