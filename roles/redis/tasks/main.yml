@@ -3,7 +3,7 @@
   tags:
     - system
     - pkgs
-  package:
+  openbsd_pkg:
     name: "{{ item }}"
     state: installed
   with_items:
